@@ -22,17 +22,19 @@ class User extends React.Component{
   render(){
    if(this.state.isClicked){
      return(
-       <div className = "border">
+       <div className = "border2">
          <h2>{this.props.user.name.first}</h2>
-         <h6>Cell : {this.props.user.cell}</h6>
-         <h6>Phone : {this.props.user.phone}</h6>
-         <h6>Email : {this.props.user.email}</h6>
+         <h3>Cell : {this.props.user.cell}</h3>
+         <h3>Phone : {this.props.user.phone}</h3>
+         <h3>Email : {this.props.user.email}</h3>
          <button onClick = {this.changeState}>Hide Info</button>
       </div>
       )
     }else{
       return(
+       
         <div className ='border'>
+          <img className = "size" src = {this.props.user.picture.medium}></img>
           <h2>{this.props.user.name.first}</h2>
          <button onClick = {this.changeState}>See info</button>
         </div>

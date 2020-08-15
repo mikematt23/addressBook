@@ -1,3 +1,21 @@
 .border{
-  border : solid 1px black
+  border : solid 1px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.border2{
+  border: solid 1px black;
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.size{
+  width: 100px;
+  height: 150;
 }

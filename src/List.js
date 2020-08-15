@@ -1,15 +1,7 @@
 import React from "react"
-import './border.css'
 import User from './User'
 
-
-
-
 let List = (props)=>{
-  console.log(props.users)
-  
- 
-
   return(
     <div>
       {

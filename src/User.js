@@ -13,12 +13,8 @@ class User extends React.Component{
     this.setState({
       isClicked : !this.state.isClicked
     })
-    console.log(this.state.isClicked)
   }
    
-  set = ()=>{
-    return <h1>hello</h1>
-  }
   render(){
    if(this.state.isClicked){
      return(
